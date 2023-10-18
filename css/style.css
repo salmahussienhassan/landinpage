@@ -1,0 +1,121 @@
+ body{
+    font-family: 'Montserrat', sans-serif;
+ }
+ h1,h2,h3,h4,h5,h6{
+    font-family: 'Grand Hotel', cursive;
+
+
+ }
+:root{
+--main-color:#fec300;
+--secondary-color:#303030;
+}
+.text-color{
+    color: var(--main-color);
+}
+.text-sec-color{
+    color: var(--secondary-color);
+}
+.btn{
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+}
+.btn:hover{
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+}
+ /* Home-start  */
+
+ .home{
+    
+    background-image: url(../img/img1.png);
+ background-position: top left;
+background-repeat: no-repeat;
+height: 100vh;
+    
+ }
+ .home .col-md-12{
+    width: 75%;
+    margin-left: auto !important;
+    background-image: url(../img/bg1.png);
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+ }
+ /* Home-end */
+ 
+
+ /* orianteltaste-start */
+ .orientaltaste{
+    background-image: url(../img/bg2.png);
+  
+    background-size: cover;
+ }
+
+ /* orianteltaste-end */
+
+  /* statistics-start */
+  .statistics{
+    margin: -50px 0px;
+    background-image:url(../img/bg3.png), url(../img/bg4.png);
+  min-height: 80vh;
+ }
+
+ .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 120px ;
+    height: 120px;
+ }
+ /* statistics-end */
+
+ /* chickengirll-start */
+.chickengirll{
+    
+    background-image: url(../img/bg4.png);
+    
+    background-position: 100% 100%;
+   
+}
+
+  /* chickengirll-end */
+
+ /* fields-start */
+
+.fields{
+    background-image: linear-gradient(rgb(249,211,19,0.6), rgb(249,211,19,0.6)), url(../img/img7.png);
+  background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+   /* fields-end */
+
+    /* subscribe-start */
+.subscribe{
+    background-image: url(../img/bg5.png);
+}
+      /* subscribe-end */
+
+     /* footer-start */
+           
+          footer{
+            background-color: var(--secondary-color);
+          }
+          i{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+
+           display: flex !important;
+           justify-content: center;
+           align-items: center;
+            background-color: white;
+            color: var(--secondary-color);
+          }
+    /* footer-end */
